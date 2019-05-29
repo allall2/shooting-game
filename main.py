@@ -200,6 +200,8 @@ def initGame():
     enemy = pygame.image.load('enemy.png')
     bullet = pygame.image.load('bullet.png')
 
+    pygame.mixer.music.load('PIMP.mp3')
+    pygame.mixer.music.play()
     clock = pygame.time.Clock()
 
 
